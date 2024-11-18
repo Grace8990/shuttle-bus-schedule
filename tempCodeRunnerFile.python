@@ -1,0 +1,41 @@
+#CLI Interface
+def main():
+    print("Welcome to the Shuttle Scheduling System")
+    while True:
+        print("\n1. Optimize Schedule")
+        print("2. Add Ad Hoc Request")
+        print("3. Exit")
+        choice = int(input("Choose an option: "))
+
+        if choice == 1:
+            print("Starting optimization...")
+            mdl.Params.TimeLimit = 10  # Limit optimization to 10 seconds
+            mdl.Params.MIPGap = 0.2   # Allow solutions within 20% of optimal
+            mdl.Params.OutputFlag = 1  # Enable solver logs
+            mdl.optimize()
+            print("Optimization complete.")
+
+            # Extract active arcs
+            active_arcs = [a for a in A if x[a].x > 0.99]
+            print(f"Total optimized distance: {mdl.ObjVal}")
+
+            # Visualize the routes
+            visualize_routes(active_arcs, xc, yc, ids, depot_latitude, depot_longitude)
+
+        elif choice == 2:
+            passenger_id = input("Enter PassengerID: ")
+            latitude = float(input("Enter new destination latitude: "))
+            longitude = float(input("Enter new destination longitude: "))
+            passenger_data = handle_ad_hoc_request([(passenger_id, latitude, longitude)], passenger_data)
+            print(f"Ad hoc request for {passenger_id} processed successfully!")
+
+        elif choice == 3:
+            print("Exiting the system. Goodbye!")
+            break
+
+        else:
+            print("Invalid choice. Please try again.")
+
+
+if __name__ == "__main__":
+    main()

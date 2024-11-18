@@ -1,0 +1,86 @@
+PassengerID,ResidentialPlace,Latitude,Longitude,language
+P001,Jamaica Plain,42.3098,-71.1151,1
+P002,Fenway,42.3458,-71.1042,1
+P003,Roxbury,42.3208,-71.0846,1
+P004,Charlestown,42.3782,-71.0602,1
+P005,Jamaica Plain,42.3098,-71.1151,1
+P006,South Boston,42.333,-71.0498,1
+P007,South End,42.3383,-71.0722,1
+P008,Jamaica Plain,42.3098,-71.1151,1
+P009,Roxbury,42.3208,-71.0846,0
+P010,Charlestown,42.3782,-71.0602,0
+P011,Fenway,42.3458,-71.1042,0
+P012,Roxbury,42.3208,-71.0846,0
+P013,Roxbury,42.3208,-71.0846,0
+P014,South End,42.3383,-71.0722,1
+P015,Dorchester,42.3017,-71.0654,1
+P016,Charlestown,42.3782,-71.0602,1
+P017,Beacon Hill,42.3583,-71.07,1
+P018,Roxbury,42.3208,-71.0846,1
+P019,Dorchester,42.3017,-71.0654,1
+P020,Beacon Hill,42.3583,-71.07,1
+P021,Charlestown,42.3782,-71.0602,1
+P022,Back Bay,42.35,-71.081,1
+P023,South Boston,42.333,-71.0498,1
+P024,Dorchester,42.3017,-71.0654,1
+P025,East Boston,42.3702,-71.038,1
+P026,Back Bay,42.35,-71.081,1
+P027,South Boston,42.333,-71.0498,1
+P028,South End,42.3383,-71.0722,1
+P029,Jamaica Plain,42.3098,-71.1151,1
+P030,Fenway,42.3458,-71.1042,1
+P031,East Boston,42.3702,-71.038,1
+P032,South End,42.3383,-71.0722,1
+P033,Charlestown,42.3782,-71.0602,1
+P034,South End,42.3383,-71.0722,1
+P035,Jamaica Plain,42.3098,-71.1151,1
+P036,Charlestown,42.3782,-71.0602,1
+P037,East Boston,42.3702,-71.038,1
+P038,Jamaica Plain,42.3098,-71.1151,1
+P039,Beacon Hill,42.3583,-71.07,1
+P040,Fenway,42.3458,-71.1042,1
+P041,East Boston,42.3702,-71.038,1
+P042,Beacon Hill,42.3583,-71.07,1
+P043,South Boston,42.333,-71.0498,1
+P044,East Boston,42.3702,-71.038,1
+P045,South Boston,42.333,-71.0498,1
+P046,Charlestown,42.3782,-71.0602,1
+P047,Beacon Hill,42.3583,-71.07,1
+P048,Fenway,42.3458,-71.1042,1
+P049,Jamaica Plain,42.3098,-71.1151,0
+P050,Roxbury,42.3208,-71.0846,0
+P051,South End,42.3383,-71.0722,0
+P052,Back Bay,42.35,-71.081,0
+P053,Fenway,42.3458,-71.1042,0
+P054,Beacon Hill,42.3583,-71.07,0
+P055,Roxbury,42.3208,-71.0846,0
+P056,Fenway,42.3458,-71.1042,1
+P057,Beacon Hill,42.3583,-71.07,1
+P058,Dorchester,42.3017,-71.0654,1
+P059,Dorchester,42.3017,-71.0654,1
+P060,South Boston,42.333,-71.0498,1
+P061,Fenway,42.3458,-71.1042,1
+P062,Dorchester,42.3017,-71.0654,1
+P063,Beacon Hill,42.3583,-71.07,1
+P064,South Boston,42.333,-71.0498,1
+P065,Beacon Hill,42.3583,-71.07,1
+P066,South Boston,42.333,-71.0498,1
+P067,Fenway,42.3458,-71.1042,1
+P068,Roxbury,42.3208,-71.0846,1
+P069,Jamaica Plain,42.3098,-71.1151,1
+P070,East Boston,42.3702,-71.038,1
+P071,Roxbury,42.3208,-71.0846,1
+P072,Charlestown,42.3782,-71.0602,0
+P073,Beacon Hill,42.3583,-71.07,0
+P074,Charlestown,42.3782,-71.0602,0
+P075,Roxbury,42.3208,-71.0846,0
+P076,South Boston,42.333,-71.0498,0
+P077,East Boston,42.3702,-71.038,0
+P078,East Boston,42.3702,-71.038,0
+P079,Back Bay,42.35,-71.081,0
+P080,East Boston,42.3702,-71.038,0
+P081,Jamaica Plain,42.3098,-71.1151,0
+P082,East Boston,42.3702,-71.038,1
+P083,Roxbury,42.3208,-71.0846,1
+
+
